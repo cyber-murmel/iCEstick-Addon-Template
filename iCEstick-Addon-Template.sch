@@ -1,0 +1,337 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR01
+U 1 1 5A561653
+P 4250 2850
+F 0 "#PWR01" H 4250 2600 50  0001 C CNN
+F 1 "GND" V 4250 2650 50  0000 C CNN
+F 2 "" H 4250 2850 50  0001 C CNN
+F 3 "" H 4250 2850 50  0001 C CNN
+	1    4250 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5A56167D
+P 4850 2850
+F 0 "#PWR02" H 4850 2600 50  0001 C CNN
+F 1 "GND" V 4850 2650 50  0000 C CNN
+F 2 "" H 4850 2850 50  0001 C CNN
+F 3 "" H 4850 2850 50  0001 C CNN
+	1    4850 2850
+	0    -1   1    0   
+$EndComp
+$Comp
+L +3V3 #PWR03
+U 1 1 5A5616D9
+P 4250 2950
+F 0 "#PWR03" H 4250 2800 50  0001 C CNN
+F 1 "+3V3" V 4250 3150 50  0000 C CNN
+F 2 "" H 4250 2950 50  0001 C CNN
+F 3 "" H 4250 2950 50  0001 C CNN
+	1    4250 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3V3 #PWR04
+U 1 1 5A56172B
+P 4850 2950
+F 0 "#PWR04" H 4850 2800 50  0001 C CNN
+F 1 "+3V3" V 4850 3150 50  0000 C CNN
+F 2 "" H 4850 2950 50  0001 C CNN
+F 3 "" H 4850 2950 50  0001 C CNN
+	1    4850 2950
+	0    1    -1   0   
+$EndComp
+Text Label 3950 2450 0    60   ~ 0
+PIO1_02
+Text Label 3950 2550 0    60   ~ 0
+PIO1_03
+Text Label 3950 2650 0    60   ~ 0
+PIO1_04
+Text Label 3950 2750 0    60   ~ 0
+PIO1_05
+Text Label 5150 2450 2    60   ~ 0
+PIO1_06
+Text Label 5150 2550 2    60   ~ 0
+PIO1_07
+Text Label 5150 2650 2    60   ~ 0
+PIO1_08
+Text Label 5150 2750 2    60   ~ 0
+PIO1_09
+Entry Wire Line
+	3850 2350 3950 2450
+Entry Wire Line
+	3850 2450 3950 2550
+Entry Wire Line
+	3850 2550 3950 2650
+Entry Wire Line
+	3850 2650 3950 2750
+Entry Wire Line
+	5250 2350 5150 2450
+Entry Wire Line
+	5250 2450 5150 2550
+Entry Wire Line
+	5250 2550 5150 2650
+Entry Wire Line
+	5250 2650 5150 2750
+Text Label 4400 2250 0    60   ~ 0
+PMOD
+$Comp
+L Conn_01x10 J1
+U 1 1 5A5618EB
+P 2300 2400
+F 0 "J1" H 2300 2900 50  0000 C CNN
+F 1 "Conn_01x10" H 2300 1800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 2300 2400 50  0001 C CNN
+F 3 "" H 2300 2400 50  0001 C CNN
+	1    2300 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR05
+U 1 1 5A56192C
+P 2550 2000
+F 0 "#PWR05" H 2550 1850 50  0001 C CNN
+F 1 "+3V3" V 2550 2200 50  0000 C CNN
+F 2 "" H 2550 2000 50  0001 C CNN
+F 3 "" H 2550 2000 50  0001 C CNN
+	1    2550 2000
+	0    1    -1   0   
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5A561950
+P 2550 2100
+F 0 "#PWR06" H 2550 1850 50  0001 C CNN
+F 1 "GND" V 2550 1900 50  0000 C CNN
+F 2 "" H 2550 2100 50  0001 C CNN
+F 3 "" H 2550 2100 50  0001 C CNN
+	1    2550 2100
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4250 2850 4300 2850
+Wire Wire Line
+	4250 2950 4300 2950
+Wire Wire Line
+	4800 2950 4850 2950
+Wire Wire Line
+	4800 2850 4850 2850
+Wire Wire Line
+	4300 2450 3950 2450
+Wire Wire Line
+	4300 2550 3950 2550
+Wire Wire Line
+	4300 2650 3950 2650
+Wire Wire Line
+	4300 2750 3950 2750
+Wire Wire Line
+	4800 2450 5150 2450
+Wire Wire Line
+	4800 2550 5150 2550
+Wire Wire Line
+	4800 2650 5150 2650
+Wire Wire Line
+	4800 2750 5150 2750
+Wire Bus Line
+	5250 2250 5250 2650
+Wire Bus Line
+	3600 2250 5250 2250
+Wire Bus Line
+	3850 2250 3850 2650
+Wire Wire Line
+	2500 2000 2550 2000
+Wire Wire Line
+	2500 2100 2550 2100
+Text Label 3200 2200 2    60   ~ 0
+PIO0_02
+Text Label 3200 2300 2    60   ~ 0
+PIO0_03
+Text Label 3200 2400 2    60   ~ 0
+PIO0_04
+Text Label 3200 2500 2    60   ~ 0
+PIO0_05
+Text Label 3200 2600 2    60   ~ 0
+PIO0_06
+Text Label 3200 2700 2    60   ~ 0
+PIO0_07
+Text Label 3200 2800 2    60   ~ 0
+PIO0_08
+Text Label 3200 2900 2    60   ~ 0
+PIO0_09
+Wire Wire Line
+	2500 2200 3200 2200
+Wire Wire Line
+	2500 2300 3200 2300
+Wire Wire Line
+	2500 2400 3200 2400
+Wire Wire Line
+	2500 2500 3200 2500
+Wire Wire Line
+	2500 2600 3200 2600
+Wire Wire Line
+	2500 2700 3200 2700
+Wire Wire Line
+	2500 2800 3200 2800
+Wire Wire Line
+	2500 2900 3200 2900
+Entry Wire Line
+	3300 2100 3200 2200
+Entry Wire Line
+	3300 2200 3200 2300
+Entry Wire Line
+	3300 2300 3200 2400
+Entry Wire Line
+	3300 2400 3200 2500
+Entry Wire Line
+	3300 2500 3200 2600
+Entry Wire Line
+	3300 2600 3200 2700
+Entry Wire Line
+	3300 2700 3200 2800
+Entry Wire Line
+	3300 2800 3200 2900
+$Comp
+L Conn_01x10 J3
+U 1 1 5A5621B3
+P 6950 2400
+F 0 "J3" H 6950 2900 50  0000 C CNN
+F 1 "Conn_01x10" H 6950 1800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 6950 2400 50  0001 C CNN
+F 3 "" H 6950 2400 50  0001 C CNN
+	1    6950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR07
+U 1 1 5A5621B9
+P 6700 2000
+F 0 "#PWR07" H 6700 1850 50  0001 C CNN
+F 1 "+3V3" V 6700 2200 50  0000 C CNN
+F 2 "" H 6700 2000 50  0001 C CNN
+F 3 "" H 6700 2000 50  0001 C CNN
+	1    6700 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 5A5621BF
+P 6700 2100
+F 0 "#PWR08" H 6700 1850 50  0001 C CNN
+F 1 "GND" V 6700 1900 50  0000 C CNN
+F 2 "" H 6700 2100 50  0001 C CNN
+F 3 "" H 6700 2100 50  0001 C CNN
+	1    6700 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 2000 6700 2000
+Wire Wire Line
+	6750 2100 6700 2100
+Wire Wire Line
+	6750 2200 6050 2200
+Wire Wire Line
+	6750 2300 6050 2300
+Wire Wire Line
+	6750 2400 6050 2400
+Wire Wire Line
+	6750 2500 6050 2500
+Wire Wire Line
+	6750 2600 6050 2600
+Wire Wire Line
+	6750 2700 6050 2700
+Wire Wire Line
+	6750 2800 6050 2800
+Wire Wire Line
+	6750 2900 6050 2900
+Entry Wire Line
+	5950 2100 6050 2200
+Entry Wire Line
+	5950 2200 6050 2300
+Entry Wire Line
+	5950 2300 6050 2400
+Entry Wire Line
+	5950 2400 6050 2500
+Entry Wire Line
+	5950 2500 6050 2600
+Entry Wire Line
+	5950 2600 6050 2700
+Entry Wire Line
+	5950 2700 6050 2800
+Entry Wire Line
+	5950 2800 6050 2900
+Text Label 6050 2200 0    60   ~ 0
+PIO2_17
+Text Label 6050 2300 0    60   ~ 0
+PIO2_18
+Text Label 6050 2400 0    60   ~ 0
+PIO2_19
+Text Label 6050 2500 0    60   ~ 0
+PIO2_20
+Text Label 6050 2600 0    60   ~ 0
+PIO2_21
+Text Label 6050 2700 0    60   ~ 0
+PIO2_22
+Text Label 6050 2800 0    60   ~ 0
+PIO2_23
+Text Label 6050 2900 0    60   ~ 0
+PIO2_24
+$Comp
+L Conn_02x06_Odd_Even J2
+U 1 1 5A562508
+P 4500 2650
+F 0 "J2" H 4550 2950 50  0000 C CNN
+F 1 "PMOD" H 4550 2250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x06_Pitch2.54mm_SMD" H 4500 2650 50  0001 C CNN
+F 3 "" H 4500 2650 50  0001 C CNN
+	1    4500 2650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

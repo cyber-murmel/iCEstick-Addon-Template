@@ -128,7 +128,7 @@ U 1 1 5A5618EB
 P 3100 7100
 F 0 "J1" H 3100 7600 50  0000 C CNN
 F 1 "Conn_01x10" H 3100 6500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 3100 7100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm_SMD_Pin1Left" H 3100 7100 50  0001 C CNN
 F 3 "" H 3100 7100 50  0001 C CNN
 	1    3100 7100
 	-1   0    0    -1  
@@ -180,21 +180,9 @@ Wire Wire Line
 Wire Wire Line
 	5150 7400 5500 7400
 Wire Bus Line
-	5600 6900 5600 7000
+	5600 6900 5600 7300
 Wire Bus Line
-	5600 7000 5600 7100
-Wire Bus Line
-	5600 7100 5600 7200
-Wire Bus Line
-	5600 7200 5600 7300
-Wire Bus Line
-	4200 6900 4200 7000
-Wire Bus Line
-	4200 7000 4200 7100
-Wire Bus Line
-	4200 7100 4200 7200
-Wire Bus Line
-	4200 7200 4200 7300
+	4200 6900 4200 7300
 Wire Wire Line
 	3300 6700 3350 6700
 Wire Wire Line
@@ -253,7 +241,7 @@ U 1 1 5A5621B3
 P 6700 7100
 F 0 "J3" H 6700 7600 50  0000 C CNN
 F 1 "Conn_01x10" H 6700 6500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 6700 7100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm_SMD_Pin1Left" H 6700 7100 50  0001 C CNN
 F 3 "" H 6700 7100 50  0001 C CNN
 	1    6700 7100
 	1    0    0    -1  
@@ -344,37 +332,9 @@ F 3 "" H 4850 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
-	4100 7500 4100 7400
+	4100 6500 4100 7500
 Wire Bus Line
-	4100 7400 4100 7300
-Wire Bus Line
-	4100 7300 4100 7200
-Wire Bus Line
-	4100 7200 4100 7100
-Wire Bus Line
-	4100 7100 4100 7000
-Wire Bus Line
-	4100 7000 4100 6900
-Wire Bus Line
-	4100 6900 4100 6800
-Wire Bus Line
-	4100 6800 4100 6500
-Wire Bus Line
-	5700 7500 5700 7400
-Wire Bus Line
-	5700 7400 5700 7300
-Wire Bus Line
-	5700 7300 5700 7200
-Wire Bus Line
-	5700 7200 5700 7100
-Wire Bus Line
-	5700 7100 5700 7000
-Wire Bus Line
-	5700 7000 5700 6900
-Wire Bus Line
-	5700 6900 5700 6800
-Wire Bus Line
-	5700 6800 5700 6500
+	5700 6500 5700 7500
 Text Label 4900 6500 3    60   ~ 0
 PIO1
 Wire Bus Line
